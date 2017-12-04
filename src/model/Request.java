@@ -77,8 +77,8 @@ public class Request {
 			  System.out.println(tp.retriveTime(2).substring(8,10));
 			  if(Integer.parseInt(day) == Integer.parseInt(tp.retriveTime(2).substring(8,10)))
 			  {
-				  
-				  //to implement the analysis of the results
+				  //In the case you want to develope an algorithm to classify the results, you could
+				  //do that here
 			  }else{
 				  this.recursiveFetch(index, chain);
 			  }
@@ -88,7 +88,7 @@ public class Request {
 			te.printStackTrace();
 			System.exit(-1);
 		}
-		//tp.closeFile(); 
+		
 	    //System.exit(0);
 	}
 
@@ -130,9 +130,7 @@ public class Request {
 			  
 			  if(Integer.parseInt(day) == Integer.parseInt(tp.retriveTime(2).substring(8,10)) || posid[0] == posid[1])
 			  {
-				  //tp.closeFile();
 				  return;
-				  //to implement the analysis of the results
 			  }else{
 				  this.recursiveFetch(index, chain);
 			  }
@@ -143,7 +141,7 @@ public class Request {
 			System.exit(-1);
 		}
 		        
-	    //System.exit(0);
+
 	}
 	
 	/**We set the radius within we are going to search the new events**/
