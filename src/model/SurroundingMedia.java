@@ -8,16 +8,13 @@ import org.json.JSONException;
 import parsers.TwitterParser;
 import twitter4j.Status;
 import twitter4j.Twitter;
-//import twitter4j.TwitterFactory;
 import twitter4j.TwitterException;
-//import twitter4j.conf.ConfigurationBuilder;
 
 
 public class SurroundingMedia{
 	
 	private TwitterParser tp;
 	private Twitter twitter;
-	//private ConfigurationBuilder cb;
 	private InfoDigger indi;
 	private ArrayList<String> landTips = new ArrayList<String>();
 	private String[] landDivision = {"district", "province", "rayon", "kray", "governorate"};
