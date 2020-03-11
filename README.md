@@ -15,4 +15,4 @@ Next a nested recursive search will be thrown obtaining the maximum tweets by se
 ![alt text](https://github.com/GuillemGarciaSabate/Enemies-Tracker/blob/master/3.PNG)
 
 The program is meant to provide data to coordinate fast-action responses in a militar-scenario.
-There is a bug, if the place you are exploring does NOT have tweets like the topic you are looking for it WILL crash! excuse my retardedness! :)
+There is a bug, if the place you are exploring does NOT have tweets like the topic you are looking for it WILL crash! 
